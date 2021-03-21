@@ -2,7 +2,7 @@ const ADD_TODO = 'todos/ADD_TODO';
 const REMOVE_TODO = 'todos/REMOVE_TODO';
 const TOGGLE_TODO = 'todos/TOGGLE_TODO';
 
-let nextId = 1;
+let nextId = 2;
 export const addTodo = text => ({
   type: ADD_TODO,
   todo: {
