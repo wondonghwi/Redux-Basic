@@ -9,8 +9,8 @@ const Counter = ({ number, diff, onIncrease, onDecrease, onSetDiff }) => {
       <h1>{number}</h1>
       <div>
         <input type="number" value={diff} onChange={onChange} />
-        <button onClick={onIncrease}>+1</button>
-        <button onClick={onDecrease}>-1</button>
+        <button onClick={onIncrease}>+</button>
+        <button onClick={onDecrease}>-</button>
       </div>
     </div>
   );
