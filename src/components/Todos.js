@@ -9,7 +9,14 @@ const TodoItem = React.memo(({ todo, onToggle, onDelete }) => {
       onClick={() => onToggle(todo.id)}
     >
       {todo.text}
-      <button onClick={() => onDelete(todo.id)}>x</button>
+      <button
+        onClick={() => onDelete(todo.id)}
+        style={{
+          marginLeft: '15px',
+        }}
+      >
+        x
+      </button>
     </li>
   );
 });
